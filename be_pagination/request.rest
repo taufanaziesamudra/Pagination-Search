@@ -1,0 +1,6 @@
+// Pencarian nama berdasarkan keyword jho
+GET http://localhost:5000/users?search_query=john&page=0&limit=10
+
+###
+// Pencarian data terakhir
+GET http://localhost:5000/users?page=0&limit=10
